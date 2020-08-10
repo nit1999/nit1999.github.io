@@ -1,0 +1,168 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+background-size:contain;
+ background-attachment: fixed;
+background-repeat:no-repeat;
+background-position:center;
+}
+
+ul{
+  list-style-type: none;
+}
+li{
+  display: inline-block;
+  margin-left: 12px;
+  margin-top: 12px;
+}
+
+.linkinfo{
+  min-width: 100%;
+  height: 4.3em;
+  background-color:white;
+}
+.social{
+  margin: 4em;
+}
+a i{
+  border-style: none;
+  font-size: 3em;
+  text-align: center;
+}
+i{
+  padding:0.1em;
+}
+i:hover{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+    background-color:rgb(49, 54, 74);
+}
+.PortfolioTitle{
+  min-width: 100%;
+  height: 70px;
+  background-color:white;
+  text-align: center;
+}
+.skills,.contact,.about{
+  text-align: center;
+}
+.aboutMe{
+  background-color: rgb(49, 54, 74);
+}
+.submit{
+  text-align: center;
+  margin-top: 5px;
+}
+input[type="submit"]{
+ border-style: none;
+ width: 7em;
+ height: 3em;
+ border-radius: 0.2em;
+ background-color: green;
+ color: white;
+}
+input[type="text"]{
+  border-style: none;
+  min-width:100%;
+  border-top:1px solid rgb(49, 54, 74);
+  height: 3em;
+  border-radius: 2px;
+}
+input[type="email"]{
+  border-style: none;
+  min-width:100%;
+    border-top:1px solid rgb(49, 54, 74);
+  height: 3em;
+  border-radius: 2px;
+}
+input[type="number"]{
+  border-style: none;
+  min-width:100%;
+    border-top:1px solid rgb(49, 54, 74);
+  height: 3em;
+  border-radius: 2px;
+}
+textarea{
+  border-style: none;
+  max-width:100%;
+  height: 15em;
+  border-top:1px solid rgb(49, 54, 74);
+  border-bottom:1px solid rgb(49, 54, 74);
+  border-radius: 2px;
+}
+.resume{
+  min-width: 100%;
+  height: 800px;
+}
+.foot{
+  min-width:100%;
+  height: 3em;
+  background-color: rgb(49, 54, 74);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+   body {
+      font-size: 0.6em;
+   }
+   a i{
+     border-style: none;
+     width: 23px;
+     height: 23px;
+     border-radius: 50%;
+     font-size: 2em;
+     text-align: center;
+     background-color:white;
+   }
+   i{
+     /* padding:0.1em; */
+   }
+   .linkinfo{
+     min-width: 100%;
+     height: 3.1em;
+     background-color: rgb(49, 54, 74);
+   }
+   .social{
+     margin:2em;
+   }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+     font-size: 0.6em;
+  }
+  a i{
+    border-style: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    text-align: center;
+    background-color:white;
+  }
+  .linkinfo{
+    min-width: 100%;
+    height: 5em;
+    background-color: rgb(49, 54, 74);
+  }
+  .social{
+    margin:4em;
+  }
+  p{
+    font-size: 3em;
+  }
+
+}
